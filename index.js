@@ -17,9 +17,15 @@ For example:
 
 songDecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
   =>  WE ARE THE CHAMPIONS MY FRIEND`
-  
-const songDecoder = dubstepRemix => {
 
+const songDecoder = dubstepRemix => {
+const lessWUBWUB = dubstepRemix.split('WUB');
+const result = [];
+
+for (let i = 0; i < lessWUBWUB.length; i++) {
+  if(lessWUBWUB[i]) result.push(lessWUBWUB[i]);
+}
+return result.join(' ')
 
 };
 
