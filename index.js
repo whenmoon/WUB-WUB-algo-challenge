@@ -19,8 +19,10 @@ songDecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
   =>  WE ARE THE CHAMPIONS MY FRIEND`
   
 const songDecoder = dubstepRemix => {
-
-
+  return dubstepRemix
+    .replace(/WUB/g, ' ')
+    .replace(/\s{2,}/g,' ')
+    .trim();
 };
 
 module.exports = songDecoder;
