@@ -7,7 +7,7 @@
   - [2.3. Submitting your solution](#23-submitting-your-solution)
 
 ## 1. Getting started
-  `https://github.com/whenmoon/WUB-WUB-algo-challenge.git`
+`https://github.com/whenmoon/WUB-WUB-algo-challenge.git`
 
 Fork this repo and then `git clone` your forked repo to your computer.
 Once you're happy with your solution, `git push` and submit a pull request at
