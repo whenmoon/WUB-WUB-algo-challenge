@@ -32,8 +32,7 @@ songDecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
 
 const songDecoder = dubstepRemix => {
   const str = dubstepRemix.replace(/WUB/g, ' ');
-  const arr = str.match(/[^\s]+/g);
-  return arr.join(' ');
+  return str.match(/[^\s]+/g).join(' ');
 };
 
 module.exports = songDecoder;
