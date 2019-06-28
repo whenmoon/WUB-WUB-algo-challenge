@@ -19,12 +19,9 @@ songDecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
   =>  WE ARE THE CHAMPIONS MY FRIEND`
   
   const songDecoder = dubstepRemix => {
-    const array = dubstepRemix.replace(/WUB/g,' ').trim().split(' ')
-    let newArray = [];
-    for (let i = 0; i< array.length; i++) {
-      if (array[i] !== '') newArray.push(array[i])
-    }
-    return newArray.join(' ');
+    return dubstepRemix.replace(/(WUB)+/g,' ').trim();
+    
+    
   };
 
 module.exports = songDecoder;
