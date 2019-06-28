@@ -18,9 +18,10 @@ For example:
 songDecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
   =>  WE ARE THE CHAMPIONS MY FRIEND`
   
-const songDecoder = dubstepRemix => {
-
-
-};
+  const songDecoder = dubstepRemix => {
+    return dubstepRemix.replace(/(WUB)+/g,' ').trim();
+    
+    
+  };
 
 module.exports = songDecoder;
