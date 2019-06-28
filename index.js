@@ -20,7 +20,6 @@ songDecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
   
 const songDecoder = dubstepRemix => {
 
-  return dubstepRemix.toString().replace(/(WUB)+/g," ").trim()
 
 };
 
